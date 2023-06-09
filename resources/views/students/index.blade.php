@@ -30,7 +30,7 @@
             <th width="280px"> Action </th>
             
         </tr>
-        @foreach($students as student)
+        @foreach($students as $student)
         <tr>
             <td>{{ student->firstName }}</td>
             <td>{{ student->lastName }}</td>
