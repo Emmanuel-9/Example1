@@ -7,7 +7,7 @@
                 <h2> CRUD Example</h2>
             </div>
             <div class="pull-right">
-                <a href="{{ route('students.create')}}"> Add New Student Details</a>
+                <a href="{{ route('students.create')}}"> Add New Student Details </a>
             </div>
         </div>
     </div>
@@ -27,17 +27,16 @@
             <th> Country </th>
             <th> Gender </th>
             <th> ID Number </th>
-            <th width="280px"> Action </th>
+            <th width="280px"> Actions </th>
             
         </tr>
         @foreach($students as $student)
         <tr>
-            <td>{{ student->firstName }}</td>
-            <td>{{ student->lastName }}</td>
-            <td>{{ student->email }}</td>
-            <td>{{ student->country }}</td>
-            <td>{{ student->gender }}</td>
-            <td>{{ student->idNumber }}</td>
+            <td>{{ $student->firstName }}</td>
+            <td>{{ $student->email }}</td>
+            <td>{{ $student->country }}</td>
+            <td>{{ $student->gender }}</td>
+            <td>{{ $student->idNumber }}</td>
             <td>
                 <form action="{{ route('students.destroy',$student->id)}}" method="POST">
                     <a class="btn btn-info" href="{{ route('students.show',$student->id)}}"> Show </a>

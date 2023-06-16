@@ -34,27 +34,27 @@
         <div class="col-xs-12 col-sm-12 col-md-12">
             <div class="form-group">
                 <strong> First Name: </strong>
-                <input type="text" name="name" value="{{ $student->firstName}}" class="form-control" placeholder="First Name">
+                <input type="text" name="firstName" value="{{ $student->firstName}}" class="form-control" placeholder="First Name">
             </div>
             <div class="form-group">
                 <strong> Last Name: </strong>
-                <input type="text" name="name" value="{{ $student->lastName}}" class="form-control" placeholder="Last Name">
+                <input type="text" name="lastName" value="{{ $student->lastName}}" class="form-control" placeholder="Last Name">
             </div>
             <div class="form-group">
                 <strong> Email Address: </strong>
-                <input type="text" name="name" value="{{ $student->email}}" class="form-control" placeholder="Email Address">
+                <input type="email" name="email" value="{{ $student->email}}" class="form-control" placeholder=" ...@gmail.com, ...@yahoo.com">
             </div>
             <div class="form-group">
                 <strong> Country: </strong>
-                <input type="text" name="name" value="{{ $student->country}}" class="form-control" placeholder="Country">
+                <input type="text" name="country" value="{{ $student->country}}" class="form-control" placeholder=" Kenya, Sudan ....">
             </div>
             <div class="form-group">
                 <strong> Gender: </strong>
-                <input type="text" name="name" value="{{ $student->gender}}" class="form-control" placeholder="Male, Female or Other">
+                <input type="text" name="gender" value="{{ $student->gender}}" class="form-control" placeholder="Male, Female or Other">
             </div>
             <div class="form-group">
                 <strong> ID Number: </strong>
-                <input type="text" name="name" value="{{ $student->idNumber}}" class="form-control" placeholder=" 137..., 3693....">
+                <input type="number" name="idNumber" value="{{ $student->idNumber}}" class="form-control" placeholder=" 137..., 3693....">
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">
                 <button type="submit" class="btn btn-primary"> Update </button>

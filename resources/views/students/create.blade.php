@@ -30,27 +30,27 @@
     <div class="col-xs-12 col-sm-12 col-md-12">
         <div class="form-group">
             <strong> First Name: </strong>
-            <input type="text" name="name" class="form-control" placeholder="First Name">
+            <input type="text" name="firstName" class="form-control" placeholder="First Name">
         </div>
         <div class="form-group">
             <strong> Last Name: </strong>
-            <input type="text" name="name" class="form-control" placeholder="Last Name">
+            <input type="text" name="lastName" class="form-control" placeholder="Last Name">
         </div>
         <div class="form-group">
             <strong> Email Address: </strong>
-            <input type="text" name="name" class="form-control" placeholder="Email Address">
+            <input type="email" name="email" class="form-control" placeholder=" ...@gmail.com, @yahoo.com">
         </div>
         <div class="form-group">
             <strong> Country: </strong>
-            <input type="text" name="name" class="form-control" placeholder="Country">
+            <input type="text" name="country" class="form-control" placeholder="Country">
         </div>
         <div class="form-group">
             <strong> Gender: </strong>
-            <input type="text" name="name" class="form-control" placeholder="Male, Female or Other">
+            <input type="text" name="gender" class="form-control" placeholder="Male, Female or Other">
         </div>
         <div class="form-group">
             <strong> ID Number: </strong>
-            <input type="text" name="name" class="form-control" placeholder=" 137..., 3693....">
+            <input type="number" name="idNumber" class="form-control" placeholder=" 137..., 3693....">
         </div>
         <div class="col-xs-12 col-sm-12 col-md-12 text-center">
             <button type="submit" class="btn btn-primary"> Submit </button>
